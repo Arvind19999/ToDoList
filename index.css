@@ -1,0 +1,112 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(182, 187, 185);
+}
+
+.main_div{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px blue solid; */
+    height: 800px;
+}
+.cards{
+    /* position: relative; */
+    /* border: 2px red solid; */
+    width:50vh;
+    height:500px;
+    background-color: white;
+    border-radius: 10px;
+    margin:auto;
+    box-shadow: 5px 5px 25px -5px rgba(19, 3, 3, 0.897);
+
+}
+
+.heading{
+    margin: 15px;
+    width:100%;
+    padding:5px;
+    font-size: 1.7rem;
+    text-align: center;
+    height:55px; 
+    color: white; 
+    background-color: orange;
+    position: relative;
+    left:-15px;
+    top:10px;
+}
+.upper{
+    display: flex;
+    justify-content: space-around;
+}
+input{
+    border:none;
+    border-bottom: 4px orange solid ;  
+}
+.inputs{
+  padding:0px;
+  color:orange;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.btn{
+    color: white;
+    padding:0.5rem;
+    width:5rem;
+    border-radius: 85%;
+    border: orange;
+    font-size: 1.6rem;
+    background-color: orange;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: green;
+}
+li{
+    list-style: none;
+    color:orange;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-left: 15px;
+    text-transform: capitalize;
+}
+
+.del{
+    background-color: orange;
+     color:white;
+     padding: 0.3rem;
+     border-radius: 50%;
+     margin-right: 10px;
+     
+}
+
+.del:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
